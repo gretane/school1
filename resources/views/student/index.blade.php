@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                       <h4>Students</h4>
+                       <h4>Students list</h4>
                         
                     </div>
                     <div class="card-body">

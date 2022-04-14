@@ -15,6 +15,9 @@ class SchoolClassController extends Controller
      */
     public function index()
     {
+        $class = SchoolClass::where('id', '=', 1)->first();
+        dd($class->teachers);
+
         $schoolClasses = SchoolClass::all();
         return view('school-class.index', ['schoolClasses' => $schoolClasses]);
 
